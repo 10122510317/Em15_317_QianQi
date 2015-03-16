@@ -1,0 +1,8 @@
+D:\Workspace\VS2010\Projects\Crawler\Crawler\bin\Release\Crawler.exe.config
+D:\Workspace\VS2010\Projects\Crawler\Crawler\bin\Release\Crawler.exe
+D:\Workspace\VS2010\Projects\Crawler\Crawler\bin\Release\Crawler.pdb
+D:\Workspace\VS2010\Projects\Crawler\Crawler\obj\x86\Release\Crawler.Form1.resources
+D:\Workspace\VS2010\Projects\Crawler\Crawler\obj\x86\Release\Crawler.Properties.Resources.resources
+D:\Workspace\VS2010\Projects\Crawler\Crawler\obj\x86\Release\Crawler.csproj.GenerateResource.Cache
+D:\Workspace\VS2010\Projects\Crawler\Crawler\obj\x86\Release\Crawler.exe
+D:\Workspace\VS2010\Projects\Crawler\Crawler\obj\x86\Release\Crawler.pdb

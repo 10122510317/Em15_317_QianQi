@@ -1,0 +1,24 @@
+D:\Workspace\VS2010\Projects\Crawler\Crawler\bin\Debug\Crawler.exe
+D:\Workspace\VS2010\Projects\Crawler\Crawler\bin\Debug\Crawler.pdb
+D:\Workspace\VS2010\Projects\Crawler\Crawler\obj\x86\Debug\Crawler.Form1.resources
+D:\Workspace\VS2010\Projects\Crawler\Crawler\obj\x86\Debug\Crawler.Properties.Resources.resources
+D:\Workspace\VS2010\Projects\Crawler\Crawler\obj\x86\Debug\Crawler.csproj.GenerateResource.Cache
+D:\Workspace\VS2010\Projects\Crawler\Crawler\obj\x86\Debug\Crawler.exe
+D:\Workspace\VS2010\Projects\Crawler\Crawler\obj\x86\Debug\Crawler.pdb
+F:\Crawler\Crawler\obj\x86\Debug\Crawler.exe
+F:\Crawler\Crawler\obj\x86\Debug\Crawler.pdb
+F:\Crawler\Crawler\bin\Debug\Crawler.exe
+F:\Crawler\Crawler\bin\Debug\Crawler.pdb
+F:\Crawler\Crawler\obj\x86\Debug\Crawler.csprojResolveAssemblyReference.cache
+F:\Crawler\Crawler\obj\x86\Debug\Crawler.Form1.resources
+F:\Crawler\Crawler\obj\x86\Debug\Crawler.Properties.Resources.resources
+F:\Crawler\Crawler\obj\x86\Debug\Crawler.csproj.GenerateResource.Cache
+F:\Crawler\Crawler\bin\Debug\Crawler.exe.config
+D:\Workspace\VS2010\Projects\Crawler\Crawler\bin\Debug\Crawler.exe.config
+D:\Workspace\VS2010\Projects\Crawler\Crawler\obj\x86\Debug\Crawler.csprojResolveAssemblyReference.cache
+E:\Program Files (x86)\Tencent\QQ\695997058\FileRecv\Crawler\Crawler\Crawler\bin\Debug\Crawler.exe.config
+E:\Program Files (x86)\Tencent\QQ\695997058\FileRecv\Crawler\Crawler\Crawler\obj\x86\Debug\Crawler.exe
+E:\Program Files (x86)\Tencent\QQ\695997058\FileRecv\Crawler\Crawler\Crawler\obj\x86\Debug\Crawler.pdb
+C:\Users\Q\Desktop\Crawler\Crawler\bin\Debug\Crawler.exe.config
+C:\Users\Q\Desktop\Crawler\Crawler\obj\x86\Debug\Crawler.exe
+C:\Users\Q\Desktop\Crawler\Crawler\obj\x86\Debug\Crawler.pdb
