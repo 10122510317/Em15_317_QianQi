@@ -1,0 +1,8 @@
+20:32:08 INFO  : Processing command line option -hwspec E:/Users/Q/Em15_317_QianQi_lab1/Em15_317_QianQi_lab1.sdk/system_wrapper.hdf.
+20:32:18 INFO  : Launching XSDB server: xsdb.bat -s E:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+20:38:08 INFO  : ps7_init is completed.
+20:38:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:39:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:39:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:41:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:44:39 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
