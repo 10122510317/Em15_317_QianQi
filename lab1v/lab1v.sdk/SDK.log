@@ -1,0 +1,11 @@
+13:36:12 INFO  : Processing command line option -hwspec E:/Users/Q/lab1v/lab1v.sdk/system_wrapper.hdf.
+13:36:18 INFO  : Launching XSDB server: xsdb.bat -s E:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+13:54:04 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:59:16 INFO  : Processing command line option -hwspec E:/Users/Q/lab1v/lab1v.sdk/system_wrapper.hdf.
+09:59:24 INFO  : Launching XSDB server: xsdb.bat -s E:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+09:59:25 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+10:02:08 INFO  : ps7_init is completed.
+10:02:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:03:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:04:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:04:57 INFO  : Processor reset is completed for ps7_cortexa9_0
