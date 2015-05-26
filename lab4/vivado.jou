@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Tue May 26 14:38:27 2015
+# Process ID: 9396
+# Log file: E:/Users/Q/lab4/vivado.log
+# Journal file: E:/Users/Q/lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Users/Q/lab4/lab4.xpr
+file mkdir E:/Users/Q/lab4/lab4.sdk
+file copy -force E:/Users/Q/lab4/lab4.runs/impl_1/system_wrapper.sysdef E:/Users/Q/lab4/lab4.sdk/system_wrapper.hdf
+
+launch_sdk -workspace E:/Users/Q/lab4/lab4.sdk -hwspec E:/Users/Q/lab4/lab4.sdk/system_wrapper.hdf
+launch_sdk -workspace E:/Users/Q/lab4/lab4.sdk -hwspec E:/Users/Q/lab4/lab4.sdk/system_wrapper.hdf

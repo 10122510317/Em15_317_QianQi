@@ -1,0 +1,51 @@
+14:40:13 INFO  : Processing command line option -hwspec E:/Users/Q/lab4/lab4.sdk/system_wrapper.hdf.
+14:40:20 INFO  : Launching XSDB server: xsdb.bat -s E:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:41:44 INFO  : BSP Project P/standalone_bsp_0 has been successfully migrated.
+14:49:35 INFO  : Saving repository preferences.
+14:49:35 INFO  : Reading in cores from local repositories: 
+		 E:\Users\Q\led_ip\led_ip_1.0
+14:49:35 INFO  : Cleaning BSP projects in the workspace.
+15:06:28 INFO  : FPGA configured successfully with bitstream "E:/Users/Q/lab4/lab4.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:07:06 INFO  : ps7_init is completed.
+15:07:06 INFO  : ps7_post_config is completed.
+15:07:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:09:20 INFO  : FPGA configured successfully with bitstream "E:/Users/Q/lab4/lab4.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:09:56 INFO  : ps7_init is completed.
+15:09:56 INFO  : ps7_post_config is completed.
+15:09:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:10:50 INFO  : FPGA configured successfully with bitstream "E:/Users/Q/lab4/lab4.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:11:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:11:34 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:12:04 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:12:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:19:03 INFO  : Successfully generated E:\Users\Q\lab4\myLinkerScript.ld.
+15:29:52 INFO  : Successfully generated E:\Users\Q\lab4\myLinkScript2.ld.
+15:31:06 INFO  : FPGA configured successfully with bitstream "E:/Users/Q/lab4/lab4.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:32:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:33:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:34:53 INFO  : FPGA configured successfully with bitstream "E:/Users/Q/lab4/lab4.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:35:06 INFO  : ps7_init is completed.
+15:35:06 INFO  : ps7_post_config is completed.
+15:35:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:35:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:44:00 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:44:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:44:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:46:12 INFO  : Successfully generated E:\Users\Q\lab4\myLinkScript2.ld.
+15:46:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:47:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:47:47 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:48:57 INFO  : Processing command line option -hwspec E:/Users/Q/lab4/lab4.sdk/system_wrapper.hdf.
+15:48:59 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+15:48:59 INFO  : Launching XSDB server: xsdb.bat -s E:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+15:49:00 INFO  : Restoring local repository preferences: 
+		 E:\Users\Q\led_ip\led_ip_1.0
+15:50:19 INFO  : FPGA configured successfully with bitstream "E:/Users/Q/lab4/lab4.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:51:09 INFO  : ps7_init is completed.
+15:51:09 INFO  : ps7_post_config is completed.
+15:51:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:52:08 INFO  : FPGA configured successfully with bitstream "E:/Users/Q/lab4/lab4.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:52:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:55:53 INFO  : Successfully generated E:\Users\Q\lab4\myLinkerScript2.ld.
+15:56:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:56:59 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
