@@ -1,0 +1,2977 @@
+16:26:52 **** Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project myproject ****
+
+Nothing to build for project myproject
+
+****  of configuration Debug for project myproject ****
+
+Nothing to build for project myproject
+
+****  of configuration Debug for project myproject ****
+
+Nothing to build for project myproject
+16:35:05 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../standalone_bsp_0/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+D:\Vivado\project_3\project_3.sdk\standalone_bsp_0\ps7_cortexa9_0\libsrc\standalone_v4_2\src/xil-crt0.S:128: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [myproject.elf] ´íÎó 1
+17:08:07 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+../src/myApp.c:17:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+../src/myApp.c:17:19: warning: unused variable 'dip_check' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                   ^
+../src/myApp.c:17:8: warning: unused variable 'psb_check' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+        ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21856	   1240	  22580	  45676	   b26c	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+17:08:33 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:09:24 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:10:43 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25248	   1248	  22580	  49076	   bfb4	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+17:10:50 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:14:36 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:20:51 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+../src/myApp.c:16:28: warning: unused variable 'my_input' [-Wunused-variable]
+    XGpio dip, push, light ,my_input;
+                            ^
+../src/myApp.c:16:21: warning: unused variable 'light' [-Wunused-variable]
+    XGpio dip, push, light ,my_input;
+                     ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25120	   1248	  22580	  48948	   bf34	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+17:20:58 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:21:34 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:26:32 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:26:58 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:37:03 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+../src/myApp.c:16:28: warning: unused variable 'my_input' [-Wunused-variable]
+    XGpio dip, push, light ,my_input;
+                            ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25184	   1248	  22580	  49012	   bf74	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+17:37:06 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:37:13 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:37:50 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25248	   1248	  22580	  49076	   bfb4	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+17:37:55 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:38:14 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:38:20 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:39:19 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:43:33 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25184	   1248	  22580	  49012	   bf74	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+17:44:48 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:46:54 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:58:16 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:136:5: error: too few arguments to function 'XGpio_DiscreteWrite'
+     XGpio_DiscreteWrite(&light,count);
+     ^
+In file included from ../src/myApp.c:2:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xgpio.h:166:6: note: declared here
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+make: *** [src/myApp.o] ´íÎó 1
+17:58:41 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:136:5: error: too few arguments to function 'XGpio_DiscreteWrite'
+     XGpio_DiscreteWrite(&light,count);
+     ^
+In file included from ../src/myApp.c:2:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xgpio.h:166:6: note: declared here
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+make: *** [src/myApp.o] ´íÎó 1
+17:59:07 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25184	   1248	  22580	  49012	   bf74	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+17:59:15 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+17:59:49 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:01:42 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25184	   1248	  22580	  49012	   bf74	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+18:01:46 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:01:51 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:03:07 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25184	   1248	  22580	  49012	   bf74	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+18:04:45 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:06:22 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25184	   1248	  22580	  49012	   bf74	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+18:06:29 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:08:16 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:08:54 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:09:37 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:12:20 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:117:36: error: 'my_push' undeclared (first use in this function)
+    psb_check = XGpio_DiscreteRead(&my_push, 1);
+                                    ^
+../src/myApp.c:117:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+make: *** [src/myApp.o] ´íÎó 1
+18:12:34 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25184	   1248	  22580	  49012	   bf74	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+18:12:58 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:13:30 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:14:49 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:16:07 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25256	   1248	  22580	  49084	   bfbc	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+18:16:15 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:16:46 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:19:38 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:19:52 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:21:43 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:23:06 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25304	   1248	  22580	  49132	   bfec	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+18:23:10 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:23:30 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:25:38 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:26:26 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:27:50 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:28:30 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:28:59 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:29:50 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:30:38 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25300	   1248	  22580	  49128	   bfe8	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+18:30:41 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:30:45 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:31:14 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:32:07 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25268	   1248	  22580	  49096	   bfc8	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+18:32:10 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:32:14 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:34:05 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:34:28 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:38:24 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:39:00 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:72: warning: unused variable 'distance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                                        ^
+../src/myApp.c:18:59: warning: unused variable 'my_diff_time' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:47: warning: unused variable 'input_check' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                               ^
+../src/myApp.c:18:36: warning: unused variable 'temp_count' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:16: warning: unused variable 'instance' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25280	   1248	  22580	  49108	   bfd4	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+18:39:03 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:39:23 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+18:40:23 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+19:38:58 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25828	   1248	  22580	  49656	   c1f8	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+19:39:19 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+19:40:16 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+19:49:56 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26056	   1248	  22580	  49884	   c2dc	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+19:50:02 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+19:50:56 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:00:13 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:01:30 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:04:10 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26068	   1248	  22580	  49896	   c2e8	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:04:13 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:04:22 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:04:54 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:06:43 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:09:06 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26068	   1248	  22580	  49896	   c2e8	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:09:12 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:09:21 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:10:21 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26068	   1248	  22580	  49896	   c2e8	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:10:24 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:11:47 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26068	   1248	  22580	  49896	   c2e8	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:11:51 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:12:02 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:12:26 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:13:07 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26068	   1248	  22580	  49896	   c2e8	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:13:11 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:13:20 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:13:42 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:13:58 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:14:22 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:14:26 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:14:42 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:15:38 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:16:17 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:16:29 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:17:36 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:19:03 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26080	   1248	  22580	  49908	   c2f4	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:19:06 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:19:11 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:24:16 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26336	   1248	  22580	  50164	   c3f4	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:24:26 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:24:34 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:25:05 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:26:19 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26368	   1248	  22580	  50196	   c414	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:26:22 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:26:30 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:26:48 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:27:23 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:28:13 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:28:34 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:28:48 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:33:38 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26368	   1248	  22580	  50196	   c414	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:33:41 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:34:34 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26368	   1248	  22580	  50196	   c414	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:34:37 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:34:51 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:35:10 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:35:47 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:40:55 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26396	   1248	  22580	  50224	   c430	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:41:23 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26396	   1248	  22580	  50224	   c430	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:41:27 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:41:40 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:42:46 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:43:04 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:44:01 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26396	   1248	  22580	  50224	   c430	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:44:04 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:44:08 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:44:20 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:44:35 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:44:40 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:46:44 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:134:7: error: expected ')' before '{' token
+       {
+       ^
+../src/myApp.c:183:6: error: expected expression before '}' token
+      }
+      ^
+../src/myApp.c:18:59: warning: variable 'my_diff_time' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                                           ^
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:18:25: warning: unused variable 'light_flag' [-Wunused-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                         ^
+../src/myApp.c:18:8: warning: variable 'my_flag' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+        ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+make: *** [src/myApp.o] ´íÎó 1
+20:46:54 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26396	   1248	  22580	  50224	   c430	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:48:35 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26416	   1248	  22580	  50244	   c444	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:48:39 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:48:52 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:49:18 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:52:32 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26416	   1248	  22580	  50244	   c444	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:52:35 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:52:41 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:53:39 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26428	   1248	  22580	  50256	   c450	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+20:53:43 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+20:53:49 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:18:17 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26236	   1248	  22580	  50064	   c390	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+21:18:21 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:18:38 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:26:16 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26172	   1248	  22580	  50000	   c350	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+21:26:20 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:26:31 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:28:42 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26172	   1248	  22580	  50000	   c350	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+21:28:47 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:28:53 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:35:16 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26172	   1248	  22580	  50000	   c350	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+21:35:19 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:35:29 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:35:50 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:39:53 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25936	   1248	  22580	  49764	   c264	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+21:39:59 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:40:04 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:40:20 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:40:33 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:40:37 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:41:15 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:42:30 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25936	   1248	  22580	  49764	   c264	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+21:42:33 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:42:41 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:43:04 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:43:11 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:43:51 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:46:33 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25936	   1248	  22580	  49764	   c264	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+21:46:36 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:46:41 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:47:01 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:47:05 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:47:29 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:47:52 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:48:05 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:48:09 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:49:09 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:49:41 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:50:02 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:50:06 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:50:51 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:51:46 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:52:14 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+21:52:30 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:01:49 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:02:37 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:02:42 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:02:57 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:03:01 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:03:24 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:04:02 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:04:07 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:04:37 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:05:26 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:05:52 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:05:57 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:06:55 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26000	   1248	  22580	  49828	   c2a4	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+22:07:01 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:07:06 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:07:19 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:07:28 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:07:36 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:08:20 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+22:08:49 **** Auto Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:11:05 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:12:08 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25844	   1248	  22580	  49672	   c208	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+22:12:13 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:12:22 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:12:41 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:13:38 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:13:49 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:14:54 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:16:10 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25920	   1248	  22580	  49748	   c254	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+22:16:14 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:16:20 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:16:31 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:16:58 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25932	   1248	  22580	  49760	   c260	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+22:17:03 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:17:06 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:17:21 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:17:34 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:17:47 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:19:19 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:20:03 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:21:49 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25932	   1248	  22580	  49760	   c260	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+22:21:50 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:21:58 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:22:02 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:25:31 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25932	   1248	  22580	  49760	   c260	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+22:25:33 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:25:42 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:25:56 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:26:10 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:26:23 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:26:27 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:26:44 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:27:20 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:27:43 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:28:53 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:29:25 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:29:40 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:29:44 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:30:02 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:30:30 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:30:46 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:30:49 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:31:44 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+22:31:52 **** Auto Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:33:46 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:34:00 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:34:05 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:34:06 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:34:07 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:34:08 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:34:26 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:34:49 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:35:27 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:35:32 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:39:55 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:40:42 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:41:01 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:41:08 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:44:14 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25932	   1248	  22580	  49760	   c260	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+22:44:16 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:44:30 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:46:30 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25932	   1248	  22580	  49760	   c260	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+22:46:34 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:46:48 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:47:10 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:48:09 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:48:30 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:51:39 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:52:17 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:52:35 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:52:40 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:52:53 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:53:06 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:53:19 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:53:35 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:54:31 **** Auto Build of configuration Debug for project myproject ****
+make all 
+'Building file: ../src/myApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/myApp.d" -MT"src/myApp.d" -o "src/myApp.o" "../src/myApp.c"
+In file included from ../src/myApp.c:3:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/myApp.c: In function 'main':
+../src/myApp.c:18:36: warning: variable 'temp_count' set but not used [-Wunused-but-set-variable]
+    int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+                                    ^
+../src/myApp.c:17:30: warning: variable 'dip_check_prev' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                              ^
+'Finished building: ../src/myApp.c'
+' '
+'Building target: myproject.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "myproject.elf"  ./src/myApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: myproject.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size myproject.elf  |tee "myproject.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25932	   1248	  22580	  49760	   c260	myproject.elf
+'Finished building: myproject.elf.size'
+' '
+22:54:35 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:54:40 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:54:43 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:54:44 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:54:49 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:55:02 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:55:09 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:55:11 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:55:12 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:55:13 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+22:55:17 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+23:01:05 **** Auto Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+23:02:16 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+23:02:40 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+23:03:48 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.
+23:04:03 **** Incremental Build of configuration Debug for project myproject ****
+make all 
+make: Nothing to be done for `all'.

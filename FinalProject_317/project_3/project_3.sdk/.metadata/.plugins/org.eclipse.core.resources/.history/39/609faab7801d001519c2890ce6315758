@@ -1,0 +1,147 @@
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xbasic_types.h"
+#include "xstatus.h"
+#include "xil_io.h"
+#include "xutil.h"
+#include "XScuTimer.h"
+//====================================================
+XScuTimer Timer;		/* Cortex A9 SCU Private Timer Instance */
+
+#define ONE_SECOND 333000000 // half of the CPU clock speed
+
+int main (void)
+{
+
+   XGpio dip, push, light ,my_input;
+   int psb_check, dip_check, dip_check_prev, count, Status;
+   int my_flag,instance,light_flag,temp_count,input_check,my_diff_time,distance;
+
+
+
+   // PS Timer related definitions
+   XScuTimer_Config *ConfigPtr;
+   XScuTimer *TimerInstancePtr = &Timer;
+
+   xil_printf("-- Start of the Program --\r\n");
+
+   XGpio_Initialize(&push, XPAR_BTNS_4BIT_DEVICE_ID);
+   XGpio_SetDataDirection(&push, 1, 0xffffffff);
+
+   XGpio_Initialize(&light, XPAR_LIGHT_4BIT_DEVICE_ID);
+   XGpio_SetDataDirection(&light, 1, 0x00000000);
+
+   XGpio_Initialize(&dip, XPAR_SW_4BIT_DEVICE_ID);
+   XGpio_SetDataDirection(&dip, 1, 0xffffffff);
+
+   XGpio_Initialize(&my_input, XPAR_INPUT_4BIT_DEVICE_ID);
+   XGpio_SetDataDirection(&my_input, 1, 0xffffffff);
+
+   count = 0;
+
+   my_flag=0;
+
+
+   // Initialize the timer
+   ConfigPtr = XScuTimer_LookupConfig(XPAR_PS7_SCUTIMER_0_DEVICE_ID);
+   Status = XScuTimer_CfgInitialize(TimerInstancePtr, ConfigPtr,ConfigPtr -> BaseAddr);
+   if (Status != XST_SUCCESS)
+   {
+	   return XST_FAILURE;
+   }
+
+
+
+
+
+   // Read dip switch values
+//   dip_check_prev = XGpio_DiscreteRead(&dip, 1);
+   // Load timer with delay in multiple of ONE_SECOND
+   XScuTimer_LoadTimer(TimerInstancePtr, ONE_SECOND);
+   // Set AutoLoad mode
+   XScuTimer_EnableAutoReload(TimerInstancePtr);
+   // Start the timer
+   XScuTimer_Start(TimerInstancePtr);
+
+
+
+
+   /*
+    * 按最右push开始
+   	读取dip
+   		若dip为0则执行按键亮灯（按中间push亮红黄灯）
+
+   	根据dip亮led；亮绿灯light（light【0】）；并开始计时
+   	按最左push停止；并根据此时时间判断
+   				相差少于1秒时亮红灯（light【1】）
+   				相差多于1秒时亮黄灯（light【3】）
+
+
+	按最右push开始
+   	循环设定时器跳灯
+   		按最左push：
+   			读dip
+   			根据dip亮led
+   			将dip赋值给定时器
+   			亮绿灯，定时
+
+   		按左2 push：
+   			读dip
+   			根据dip亮led
+   			将dip赋值给distance
+
+		按input【0】：
+			亮红灯
+			将distance赋给定时器
+			若到时前左3push或input【2】都!=1
+				到时后亮绿灯，将原时间赋给定时器，定时
+			否则
+				亮红灯，定时原时间-distance
+				到时候亮绿灯，将原时间赋给定时器，定时
+    *
+    */
+
+
+  /*
+   * 		按input【0】：
+			亮红灯
+			将distance赋给定时器
+			若到时前左3push或input【2】都!=1
+				到时后亮绿灯，将原时间赋给定时器，定时
+			否则
+				亮红灯，定时原时间-distance
+				到时候亮绿灯，将原时间赋给定时器，定时
+ */  while (1)
+   {
+	  // Read push buttons and break the loop if Center button pressed
+	  psb_check = XGpio_DiscreteRead(&my_input, 1);
+	  xil_printf("eeeee");
+	  if(psb_check & 0x1)
+	  {
+		  xil_printf("ffff");
+		  XScuTimer_Stop(TimerInstancePtr);
+		  break;
+	  }
+	  xil_printf("gggg");
+	  dip_check = XGpio_DiscreteRead(&dip, 1);
+	  if (dip_check != dip_check_prev) {
+		  xil_printf("DIP Switch Status %x, %x\r\n", dip_check_prev, dip_check);
+		  dip_check_prev = dip_check;
+	  	  // load timer with the new switch settings
+		  XScuTimer_LoadTimer(TimerInstancePtr, ONE_SECOND*dip_check_prev);
+		  count = 0;
+	  }
+	  if(XScuTimer_IsExpired(TimerInstancePtr)) {
+			  // clear status bit
+		  XScuTimer_ClearInterruptStatus(TimerInstancePtr);
+		  	  // output the count to LED and increment the count
+		  Xil_Out32(XPAR_LED_4BIT_BASEADDR,count);
+		  XGpio_DiscreteWrite(&light,1,count);
+		  count++;
+	  }
+   }
+
+
+   return 0;
+}
+
